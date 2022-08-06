@@ -1,0 +1,11 @@
+x=datetime.datetime.now()
+f=open("test1.txt","r")
+print(f.read())
+def insert_studentdata():
+    int(input("enter your admno:"))
+    rollno=int(input("enter your rollno:"))
+    department=input("enter your department:")
+    name=input("enter your name:")
+    age=int(input("enter your age:"))
+    place=input("enter your place:")
+    val=(admno,rollno,department,name,age,place)
